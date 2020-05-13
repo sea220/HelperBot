@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2020-05-12 21:11:48,798: init_node, name[/spawn_turtlebot_model], pid[1152]
+[xmlrpc][INFO] 2020-05-12 21:11:48,799: XML-RPC server binding to :::0
+[xmlrpc][INFO] 2020-05-12 21:11:48,799: binding ipv6 xmlrpc socket to('::', 0)
+[xmlrpc][INFO] 2020-05-12 21:11:48,799: bound to ('::', 46785)
+[xmlrpc][INFO] 2020-05-12 21:11:48,799: Started XML-RPC server [http://rosdscomputer:46785/]
+[rospy.init][INFO] 2020-05-12 21:11:48,799: ROS Slave URI: [http://rosdscomputer:46785/]
+[rospy.impl.masterslave][INFO] 2020-05-12 21:11:48,799: _ready: http://rosdscomputer:46785/
+[xmlrpc][INFO] 2020-05-12 21:11:48,800: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-05-12 21:11:48,800: Registering with master node http://master:11311
+[rospy.init][INFO] 2020-05-12 21:11:48,900: registered with master
+[rospy.rosout][INFO] 2020-05-12 21:11:48,900: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-05-12 21:11:48,902: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-05-12 21:11:48,903: initializing /clock core topic
+[rospy.simtime][INFO] 2020-05-12 21:11:48,905: connected to core topic /clock
+[rosout][INFO] 2020-05-12 21:11:48,907: Loading model XML from ros parameter
+[rosout][INFO] 2020-05-12 21:11:48,911: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2020-05-12 21:11:49,136: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-05-12 21:11:56,293: topic[/clock] adding connection to [http://rosdscomputer:34227/], count 0
+[rosout][INFO] 2020-05-12 21:11:56,472: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2020-05-12 21:11:57,847: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2020-05-12 21:11:57,858: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-05-12 21:11:57,861: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-05-12 21:11:57,861: topic[/clock] removing connection to http://rosdscomputer:34227/
+[rospy.impl.masterslave][INFO] 2020-05-12 21:11:57,862: atexit

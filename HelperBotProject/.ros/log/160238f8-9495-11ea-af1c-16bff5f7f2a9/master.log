@@ -1,0 +1,35 @@
+[rosmaster.main][INFO] 2020-05-12 21:11:13,262: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-05-12 21:11:13,262: Starting ROS Master Node
+[xmlrpc][INFO] 2020-05-12 21:11:13,264: XML-RPC server binding to :::11311
+[xmlrpc][INFO] 2020-05-12 21:11:13,264: binding ipv6 xmlrpc socket to('::', 11311)
+[xmlrpc][INFO] 2020-05-12 21:11:13,268: bound to ('::', 11311)
+[rosmaster.master][INFO] 2020-05-12 21:11:13,268: Master initialized: port[11311], uri[http://rosdscomputer:11311/]
+[xmlrpc][INFO] 2020-05-12 21:11:13,268: Started XML-RPC server [http://rosdscomputer:11311/]
+[xmlrpc][INFO] 2020-05-12 21:11:13,268: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-05-12 21:11:13,366: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-05-12 21:11:13,367: +PARAM [/roslaunch/uris/host_rosdscomputer__41747] by /roslaunch
+[rosmaster.master][INFO] 2020-05-12 21:11:14,649: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2020-05-12 21:11:14,650: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-05-12 21:11:14,650: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2020-05-12 21:11:14,650: +PARAM [/robot_state_publisher/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2020-05-12 21:11:14,650: +PARAM [/cmd_vel_mux/yaml_cfg_file] by /roslaunch
+[rosmaster.master][INFO] 2020-05-12 21:11:14,650: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-05-12 21:11:15,171: +SERVICE [/rosout/get_loggers] /rosout http://rosdscomputer:34001/
+[rosmaster.master][INFO] 2020-05-12 21:11:15,180: +SERVICE [/rosout/set_logger_level] /rosout http://rosdscomputer:34001/
+[rosmaster.master][INFO] 2020-05-12 21:11:15,184: +SUB [/clock] /rosout http://rosdscomputer:34001/
+[rosmaster.master][INFO] 2020-05-12 21:11:15,185: +PUB [/rosout_agg] /rosout http://rosdscomputer:34001/
+[rosmaster.master][INFO] 2020-05-12 21:11:15,189: +SUB [/rosout] /rosout http://rosdscomputer:34001/
+[rosmaster.master][INFO] 2020-05-12 21:11:17,896: +PUB [/rosout] /mobile_base_nodelet_manager http://rosdscomputer:45685/
+[rosmaster.master][INFO] 2020-05-12 21:11:17,902: publisherUpdate[/rosout] -> http://rosdscomputer:34001/ ['http://rosdscomputer:45685/']
+[rosmaster.master][INFO] 2020-05-12 21:11:17,904: publisherUpdate[/rosout] -> http://rosdscomputer:34001/ ['http://rosdscomputer:45685/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-12 21:11:17,904: +SERVICE [/mobile_base_nodelet_manager/get_loggers] /mobile_base_nodelet_manager http://rosdscomputer:45685/
+[rosmaster.master][INFO] 2020-05-12 21:11:17,916: +SERVICE [/mobile_base_nodelet_manager/set_logger_level] /mobile_base_nodelet_manager http://rosdscomputer:45685/
+[rosmaster.master][INFO] 2020-05-12 21:11:17,988: +SUB [/clock] /mobile_base_nodelet_manager http://rosdscomputer:45685/
+[rosmaster.master][INFO] 2020-05-12 21:11:18,014: +SERVICE [/mobile_base_nodelet_manager/load_nodelet] /mobile_base_nodelet_manager http://rosdscomputer:45685/
+[rosmaster.master][INFO] 2020-05-12 21:11:18,024: +PUB [/rosout] /cmd_vel_mux http://rosdscomputer:36603/
+[rosmaster.master][INFO] 2020-05-12 21:11:18,032: +SERVICE [/mobile_base_nodelet_manager/unload_nodelet] /mobile_base_nodelet_manager http://rosdscomputer:45685/
+[rosmaster.master][INFO] 2020-05-12 21:11:18,048: +SERVICE [/cmd_vel_mux/get_loggers] /cmd_vel_mux http://rosdscomputer:36603/
+[rosmaster.master][INFO] 2020-05-12 21:11:18,060: +SERVICE [/mobile_base_nodelet_manager/list] /mobile_base_nodelet_manager http://rosdscomputer:45685/
+[rosmaster.master][INFO] 2020-05-12 21:11:18,076: +SERVICE [/cmd_vel_mux/set_logger_level] /cmd_vel_mux http://rosdscomputer:36603/
+[rosmaster.master][INFO] 2020-05-12 21:11:18,104: publisherUpdate[/rosout] -> http://rosdscomputer:34001/ ['http://rosdscomputer:45685/', 'http://rosdscomputer:36603/']
+[rosmaster.master][INFO] 2020-05-12 21:11:18,106: publisherUpdate[/rosout] -> http://rosdscomputer:34001/ ['http://rosdscomputer:45685/', 'http://rosdscomputer:36603/']: sec=0.00, result=[1, '', 0]

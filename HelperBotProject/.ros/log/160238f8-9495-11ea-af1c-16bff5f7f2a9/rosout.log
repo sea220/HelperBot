@@ -1,0 +1,4 @@
+
+
+0.000000000  Node Startup
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-nodelet-1.9.14/src/loader.cpp:233(Loader::Impl::advertiseRosApi) [topics: /rosout] Initializing nodelet with 2 worker threads.
